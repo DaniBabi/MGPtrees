@@ -1,0 +1,48 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol tags="Ash,Tree,Icon,SVG,Park,Inventory" alpha="1" clip_to_extent="1" is_animated="0" type="marker" force_rhr="0" frame_rate="10" name="Tree Marker">
+      <data_defined_properties>
+        <Option type="Map">
+          <Option type="QString" value="" name="name"/>
+          <Option name="properties"/>
+          <Option type="QString" value="collection" name="type"/>
+        </Option>
+      </data_defined_properties>
+      <layer pass="0" id="{6a78c57f-caf7-41f1-a966-18c2d523887f}" class="SvgMarker" locked="0" enabled="1">
+        <Option type="Map">
+          <Option type="QString" value="0" name="angle"/>
+          <Option type="QString" value="164,113,88,255" name="color"/>
+          <Option type="QString" value="0" name="fixedAspectRatio"/>
+          <Option type="QString" value="1" name="horizontal_anchor_point"/>
+          <Option type="QString" value="tree.svg" name="name"/>
+          <Option type="QString" value="0,0" name="offset"/>
+          <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+          <Option type="QString" value="MM" name="offset_unit"/>
+          <Option type="QString" value="35,35,35,255" name="outline_color"/>
+          <Option type="QString" value="0" name="outline_width"/>
+          <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+          <Option type="QString" value="MM" name="outline_width_unit"/>
+          <Option name="parameters"/>
+          <Option type="QString" value="diameter" name="scale_method"/>
+          <Option type="QString" value="8" name="size"/>
+          <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+          <Option type="QString" value="MM" name="size_unit"/>
+          <Option type="QString" value="1" name="vertical_anchor_point"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+  <symbols3d/>
+</qgis_style>

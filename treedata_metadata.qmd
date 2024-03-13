@@ -1,0 +1,79 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.32.3-Lima">
+  <identifier>treedata.geojson</identifier>
+  <parentidentifier>Shepherdstown Community Club</parentidentifier>
+  <language>USA</language>
+  <type>dataset</type>
+  <title>Shepherdstown Community Club</title>
+  <abstract>This dataset contains attributes about the Ash Tree Inventory at Morgan's Grove Park owned by Shepherdstown Community Club and operated by Jefferson County. 
+
+Park Director: Carrie Blessing
+Data Collection: Carrie Blessing
+Data Processing: Rachel Pierce
+
+This dataset is intended for use in a web map application enabling users to select and adopt/sponsor a tree through the web application.
+Data was recorded using a Garmin hand held GPS unit.
+CRS: WGS84
+Units: HDDD.mm.mmm (DEGREES MINUTES MINUTES) and was converted to DECIMAL DEGREES.
+
+</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Biota</keyword>
+    <keyword>Distribution</keyword>
+    <keyword>Environment</keyword>
+    <keyword>Location</keyword>
+    <keyword>Non-Profit</keyword>
+    <keyword>Stewardship</keyword>
+    <keyword>Tree</keyword>
+    <keyword>adopt</keyword>
+    <keyword>inventory</keyword>
+    <keyword>sponsor</keyword>
+    <keyword>treatment</keyword>
+  </keywords>
+  <contact>
+    <name>Rachel Pierce</name>
+    <organization></organization>
+    <position>GIS Analyst</position>
+    <voice></voice>
+    <fax></fax>
+    <email>rpierc21@jhu.edu</email>
+    <role>custodian</role>
+  </contact>
+  <links>
+    <link size="" url="http://" type="Payment Portal" description="Link to payment for tree sponsorship" mimeType="" format="" name="undefined 1"/>
+  </links>
+  <history>V0.1</history>
+  <dates>
+    <date type="Created" value="2024-01-20T00:00:00"/>
+    <date type="Published" value="2024-01-20T00:00:00"/>
+  </dates>
+  <fees></fees>
+  <constraints type="use">Non-Profit</constraints>
+  <rights>Shepherdstown Community Club</rights>
+  <rights>Morgan's Grove Park</rights>
+  <rights>Carrie Blessing</rights>
+  <license>Open Data Commons Attribution License</license>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxx="-77.81961667000000205" dimensions="2" minx="-77.82361667000000693" minz="0" crs="" maxy="39.42303333000000265" maxz="0" miny="39.41931667000000061"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
