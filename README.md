@@ -35,7 +35,8 @@ Click the sections to open the details.
 
 1. In Github, click on treedata.geojson to go to the file.
 2. Above the code, where it says Preview, Blame, Code, click Code to view the dataset.
-3. On the right hand side of the interface, click on the pencil to edit the dataset.
+3. On the right hand side of the interface, click on the pencil to edit the dataset. <br>
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/068142d3-04cb-4332-8672-a6b6ba3169b8" /> <br>
 4. On the right hand side of the interface, click the No Wrap dropdown to change the line wrap mode to Soft Wrap.
 5. The interface will orient the data so that the first two lines appear like:
  
@@ -46,7 +47,7 @@ Click the sections to open the details.
   * This helps view the records in a more organized way.
 
 6. Find the tree_ID that needs to be changed from "Sponsored": null to "Sponsored": True.
-7. Click commit changes to end the editing session.
+7. Click commit changes to end the editing session. Add a description about the edit if you'd like. 
 <img width="528" alt="image" src="https://github.com/user-attachments/assets/9093dc84-e764-43e3-9d28-f9208f340fa0" />
 
 
@@ -57,7 +58,7 @@ Click the sections to open the details.
 * Lat and Long are floats aka numbers containing decimals and unless the trees are sprouting legs and moving, should remain the same.
 * String aka text fields must be enclosed in double quotes: ```"Sponsor_Name":"Jacko Lantern"```
 * ****Sponsored**** and ****Two_Stem**** are boolean data types, so True or False do not get any single or double quotes, therefore,
-  * ```"Sponsored": null``` until somone pays the fee, and then change null to True. ```"Sponsored":True```
+  * ```"Sponsored":null``` until somone pays the fee, and then change null to True. ```"Sponsored":True```
   * When the sponsorship period expires, change True to False
   * ****DO NOT CHANGE**** anything after the number of individuals.
   * ****DO NOT DELETE**** any commas, brackets, or parentheses. 
